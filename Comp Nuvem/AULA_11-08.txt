@@ -1,0 +1,58 @@
+-- Criptografia Assimétrica (De mão unica) - Uma criptografia que precisa de duas chaves,
+uma publica outra privada;
+
+-- Computação Distribuida - Um sistema de processamento distribuído ou paralelo é um 
+sistema que interliga vários nós de processamento (computadores individuais, não necessariamente
+homogéneos) de maneira que um processo de grande consumo seja executado no nó "mais disponível",
+ou mesmo subdividido por vários nós. Conseguindo-se, portanto, ganhos óbvios nestas soluções:
+uma tarefa qualquer, se divisível em várias subtarefas pode ser realizada em paralelo;
+
+-- DNS (Domain Name System) - É um serviço que faz a associação do IP a URL; 
+
+-- InfiniBand - É um padrão de comunicação de rede de computadores usado em computação de
+alto desempenho que apresenta rendimento muito alto e latência muito baixa. É usado para
+interconexão de dados entre e dentro de computadores.
+
+
+SPRINT 1: Repatriar o sistema legado do 3 semestre
+
+==================================================
+
+o Serviços de Rede basicos
+
+o Serviços Virtualizados - AWS-EC2
+
+o Arquitetura de Redes
+
+o Conceitos de Cloud
+
+Entregaveis: 
+
+1-) Servidor de FE/BE montado no EC2
+
+2-) Projeto Individual no EC2
+
+-- Arquitetura Redes
+
+A internet foi projetada para ser aberta á ponto de executar em uma grande variedade de 
+de hardware e resistir a possíveis danos, como bombardeios, que poderiam prejudicar seu
+funcionamento. É um ambiente descentralizado, flexível e capaz de adaptar-se a apliações 
+com diversas necessidades.
+
+A ArpaNet foi o primeiro gerenciador usando internet usando o protocolo TCP.
+
+Diversos grupos orientam o crescimento da Internet, ajudando a estabelecer padrões e a coordenar
+e orientar o uso:
+-IAB 
+-IRFT 
+-IETF 
+-Internet Society
+-InterNIC 
+-W3C
+
+TCP/IP é o nome que se dá a toda a família de protocolos ultilizados pela Internet. Devido aos
+seus protocolos mais usados o TCP eo IP.
+
+Protocolos de transporte - TCP e UDP,
+
+SOCKET
