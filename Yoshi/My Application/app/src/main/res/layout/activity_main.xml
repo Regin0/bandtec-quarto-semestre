@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    Medidas:-->
+<!--    sp -> dinâmica, recomendada para tamanho de textos-->
+<!--    dp -> dinâmica, recomendada para  figuras, componentes gráficos e distâncias-->
+<!--        demais medidas -> fixas (ou quase). Usar só quando necessário-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:id="@+id/tv_topo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For You, I go loco"
+        android:textSize="30sp"
+        android:textColor="#DA00FF"
+        android:id="@+id/tv_segundo"
+        app:layout_constraintTop_toBottomOf="@id/tv_topo"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baby come back"
+        android:textSize="30sp"
+        android:textColor="#0027FF"
+        android:id="@+id/tv_terceiro"
+        app:layout_constraintTop_toBottomOf="@id/tv_segundo"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summer in the city"
+        android:textSize="25sp"
+        android:textColor="#FF1100"
+        android:id="@+id/tv_quarto"
+        app:layout_constraintTop_toBottomOf="@id/tv_terceiro"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_quinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:text="To do lado"
+        android:textColor="#00E404"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@id/tv_quarto"
+        app:layout_constraintTop_toBottomOf="@id/tv_terceiro" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clica ni mim"
+        android:textSize="30sp"
+        android:id="@+id/bt_01"
+        app:layout_constraintTop_toBottomOf="@id/tv_quarto"
+        android:onClick="cliqueNimin"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite algo aqui"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/bt_01"
+        android:id="@+id/et_texto"
+        android:inputType="text"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
