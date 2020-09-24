@@ -7,12 +7,28 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_contador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Contador de cliques"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt_contar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clique e conte"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_contador"
+        android:onClick="contar"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/flash"
+        android:id="@+id/id_foto"
+        app:layout_constraintTop_toBottomOf="@id/bt_contar"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
